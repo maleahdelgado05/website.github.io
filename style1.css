@@ -1,0 +1,418 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans' , sans-serif;
+}
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../Website/bg1.PNG);
+	background-size: cover;
+	background-position: center;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 35px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+}
+
+header .sticky{
+	padding: 10px 100px;
+	background: #fff;
+}
+
+header .logo{
+	position: relative;
+	font-weight: 700;
+	color: #6F4E37;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+}
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li{
+	position: relative;
+	list-style: none;
+}
+header ul li a{
+	position: relative;
+	margin: 0 35px;
+	text-decoration: none;
+	color: #6F4E37;
+	font-size: 17px;
+}
+
+a:hover{
+	color: red;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+.social{
+	margin-top: 30px;
+}
+h1{
+	color: #6F4E37;
+	margin: 15px 0px 15px;
+	font-size: 40px;
+}
+h2{
+	color: #81613C;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+h3{
+	color: #A67B5B	;
+	letter-spacing: 2px;
+	font-size: 25px ;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.about{
+	width: 100%;
+	height: 100vh;
+	padding: 100px 0px;
+	background: url(bg2.PNG);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a{
+	color: #7B3F00;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+.about img{
+	height: 470px;
+	width: 450px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h4{
+	color: black;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.about-text h5{
+	color: black;
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+}
+.hobbies{
+	background: url(bg3.JPG);
+	background-size: cover;
+	background-position: center
+	width: 100%;
+	padding: 100px 0px;
+	margin-bottom: 20px;
+}
+.title h2{
+	color: #7B3F00;
+	font-size: 70px;
+	width: 1130px;
+	margin:3px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+}
+.card{
+	height: 250px;
+	width: 200px;
+	padding: 20px 35px;
+	background: #FE6F5E;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 20px;
+	color: #FBCEB1;
+}
+h5{
+	color: #FFFDD0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.heading{
+	text-align: center;
+	margin-bottom: 2.5px;
+	font-size: 30px;
+	color: clack;
+}
+
+.familybackground{
+	display: flex;
+	justify-content: center;
+	background-color: #DEB887;
+	width: 100%;
+	padding: 100px 0px;
+	margin-bottom: 20px;
+}
+h6{
+	position: absolute;
+	margin-left: 45%;
+	text-align: center;
+	color: brown;
+}
+.title h6{
+	position: absolute;
+	font-size: 30px;
+	margin-left: 42%;
+	text-align: center;
+	color: brown;
+}
+p{
+	font-size: 20px;
+	text-align: center;
+	color: #79443B;
+}
+.CARD{
+	background: white;
+	width: 270px;
+	height: 400px;
+	margin: 10px;
+	margin-top: 5%;
+	border-radius: 20px auto;
+}
+.CARD-image{
+	background-color: aqua;
+	height: 350px;
+	margin-bottom: 15px;
+	background-size: cover no-repeat;
+}
+.pic-1{
+	background: url("image-2.png");
+}
+.pic-2{
+	background: url("image-3.png");
+}
+.pic-3{
+	background: url("image-4.png");
+}
+.pic-4{
+	background: url("image-5.png");
+}
+.pic-5{
+	background: url("image-6.png");
+}
+.skillandtalent{
+	background: url("bg4.PNG");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.middle{
+  position: absolute ;
+  margin-top: 23%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.card1{
+  cursor: pointer;
+  width: 340px;
+  height: 480px;
+}
+.front,.back{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+.front img{
+  height: 100%;
+}
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+.back{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+  color: #2c3e50;
+  width: 50%;
+  margin-top: 55%;
+}
+span{
+	text-align: center;
+	font-size: 15px;
+	color: lightbrown;
+	margin-top: 20%;
+}
+.sm{
+  margin: 20px 0;
+}
+.sm a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%
+}
+.sm a:hover{
+  background: #2c3e50;
+  color: white;
+}
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+.strengthandweakness{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	min-height: 100vh;
+	background: url(bg5.PNG);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.container{
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.cardy{
+	position: relative;
+	left: 1%;
+	width: 300px;
+	height: 370px;
+	transition: 0.3 ease-out;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+}
+.cardy .imagebx{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.cardy .imagebx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	display: block;
+	transition: 0.5s;
+}
+.cardy .con{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 300px;
+	height: 100px;
+	padding: 12px;
+	background: #F88379;
+	transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.cardy:hover .con{
+	width: 100%;
+	height: 75%;
+	left: 0;
+	bottom: 0;
+}
+.con p{
+	margin: 10px 0 0;
+	padding: 1em 1em;
+	transform: translateY(12em);
+}
+.cardy:hover .con p{
+	transform: translateY(0);
+	opacity: 1;
+}
+h2{
+	text-align: center;
+}
+.cardy:hover{
+	box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
